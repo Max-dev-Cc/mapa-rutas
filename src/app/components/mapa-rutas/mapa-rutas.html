@@ -1,0 +1,29 @@
+<div class="mapa-container">
+  <div id="map"></div>
+
+  @if (rutaData(); as ruta) {
+    <div class="info-panel">
+      <h3>📦 Resumen de Ruta</h3>
+      <div class="stat">
+        <span>🗺️ Distancia total</span>
+        <strong>{{ ruta.distancia_total / 1000 | number: '1.2-2' }} km</strong>
+      </div>
+      <div class="stat">
+        <span>🚚 Camiones</span>
+        <strong>{{ ruta.num_camiones }}</strong>
+      </div>
+      <div class="stat">
+        <span>🔄 Viajes</span>
+        <strong>{{ ruta.numero_viajes }}</strong>
+      </div>
+      <div class="stat">
+        <span>💧 Garrafones</span>
+        <strong>{{ ruta.total_garrafones }}</strong>
+      </div>
+      <div class="stat">
+        <span>📍 Puntos</span>
+        <strong>{{ ruta.puntos_entrega.length }}</strong>
+      </div>
+    </div>
+  }
+</div>
