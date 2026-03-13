@@ -35,7 +35,7 @@ Aplicación web construida con **Angular 20+** y **Leaflet** para visualizar rut
 | Herramienta | Versión mínima |
 | ----------- | -------------- |
 | Node.js     | 18.x           |
-| npm         | 9.x            |
+| pnpm        | 8.x            |
 | Angular CLI | 17+            |
 
 ---
