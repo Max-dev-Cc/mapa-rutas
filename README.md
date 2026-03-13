@@ -14,7 +14,7 @@ Aplicación web construida con **Angular 20+** y **Leaflet** para visualizar rut
 > El mapa muestra el almacén de origen, los puntos de entrega numerados en orden de visita y la línea de ruta trazada entre ellos. Cada viaje distinto aparece en un color diferente.
 
 <p align="center">
-  <img src="docs/images/preview.png" width="700" alt="Vista previa del mapa de rutas" />
+  <img src="docs/preview.png" width="700" alt="Vista previa del mapa de rutas" />
 </p>
 ---
 
