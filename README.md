@@ -52,7 +52,7 @@ cd mapa-rutas
 ### 2. Instalar dependencias
 
 ```bash
-npm install
+pnpm  install
 ```
 
 ### 3. Iniciar el servidor de desarrollo
